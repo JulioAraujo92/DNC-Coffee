@@ -1,0 +1,99 @@
+
+
+
+.modal-func {
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: rgba(255,255,255,0.8);
+
+    
+    position: fixed;
+    left:0;
+    top: 0;
+    z-index: 1;
+    overflow: auto;
+}
+
+.modal-painel {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    font-family: 'Montserrat';
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+
+    width: 650px;
+    height: 500px;
+    position: fixed;
+    left: 33vw;
+    top: 5vw;
+    z-index: 1;
+    overflow: auto;
+}
+
+.modal-painel h5 {
+    font-weight: 300;
+    font-size: 39px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 100px;
+    letter-spacing: 5px;
+}
+
+.modal-painel p{
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 40px;
+    margin-top: 70px;
+    letter-spacing: 2px;
+}
+
+.modal-painel button{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    color:white;
+    width: 280px;
+    height: 48px;
+    text-transform: uppercase;
+    margin-top: 90px;
+    background: #2A3342;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+#btn-fechar{
+    margin-top: 0px;
+    margin-left: 620px;
+    font-size: 17px;
+    cursor: pointer;
+    width: 20px;
+
+}
+
+main article{
+    text-align: center;
+}
+
+.comprar-agora{
+    width: 202px;
+    height: 48px;
+
+    background: #2A3342;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #F6F5FB;
+    display: none;
+    
+}
+
